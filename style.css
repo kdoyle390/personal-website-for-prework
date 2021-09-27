@@ -1,15 +1,20 @@
-#header {
-    width: auto;
-    height: 150px;
-    background-color: #555b6e;
-    text-align: center;
-    border-style: dotted;
-    border-width: 4px;
-    
+
+
+#headerBackground img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 300px;
+    position: relative;
   }
+
+img h1 {
+    position: absolute;
+}
 
 nav {
     background: #bee3db;
+    text-align: center;
 }
 
 body {
@@ -17,12 +22,12 @@ body {
 }
 
 h1 {
-    color: #bee3db;
+    color: #faf9f9;
     font-size: 45px;
     font-weight: bold;
 }
 
-img {
+#content img {
     max-width: 40%;
     height: auto;
 }
@@ -37,19 +42,27 @@ h3 {
 }
 
 body {
-    background-color: #bee3db;
+    background-color: #555b6e;
 }
 
 ul {
     font-align: center;
 }
-ul li {
+ul > li {
+    padding-right: 15px; 
     display: inline-block;
-    padding:  
 }
 
 p {
     margin-left: 50mm;
     margin-right: 15mm;
     text-align: justify;
+}
+
+footer {
+    background-color: #ffd6ba;
+    color: #555b6e; 
+    display: block;
+    margin: 0px;
+    text-align: center;
 }
