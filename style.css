@@ -1,0 +1,55 @@
+#header {
+    width: auto;
+    height: 150px;
+    background-color: #555b6e;
+    text-align: center;
+    border-style: dotted;
+    border-width: 4px;
+    
+  }
+
+nav {
+    background: #bee3db;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #bee3db;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 14px;
+    
+}
+
+h3 {
+    font-style: oblique;
+}
+
+body {
+    background-color: #bee3db;
+}
+
+ul {
+    font-align: center;
+}
+ul li {
+    display: inline-block;
+    padding:  
+}
+
+p {
+    margin-left: 50mm;
+    margin-right: 15mm;
+    text-align: justify;
+}
