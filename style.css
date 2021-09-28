@@ -1,4 +1,7 @@
-
+html, body {
+    margin:0;
+    padding:0;
+}
 
 #headerBackground img {
     width: 100%;
@@ -7,10 +10,6 @@
     height: 300px;
     position: relative;
   }
-
-img h1 {
-    position: absolute;
-}
 
 nav {
     background: #bee3db;
@@ -22,7 +21,7 @@ body {
 }
 
 h1 {
-    color: #faf9f9;
+    color: #f3eec3;
     font-size: 45px;
     font-weight: bold;
 }
@@ -30,6 +29,7 @@ h1 {
 #content img {
     max-width: 40%;
     height: auto;
+ 
 }
 
 figcaption {
@@ -42,7 +42,7 @@ h3 {
 }
 
 body {
-    background-color: #555b6e;
+    background-color: #b0d0d3;
 }
 
 ul {
@@ -60,9 +60,21 @@ p {
 }
 
 footer {
-    background-color: #ffd6ba;
-    color: #555b6e; 
+    background-color: #f7e3af;
+    color: #c08497; 
     display: block;
     margin: 0px;
     text-align: center;
+    width: auto;
+    
+}
+
+footer h6 {
+    padding-bottom:0mm;
+}
+
+footer p {
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
 }
